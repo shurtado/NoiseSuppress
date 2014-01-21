@@ -9,9 +9,12 @@ To Run:
 
 Hybrid median filter:
 ----------------------------------------------
-
+>python remove_noise.py [photo.ext] hybrid
 
 Alpha-trimmed filter:
 --------------------------------------------------
+>python remove_noise.py [photo.ext] alpha [parameter]
 
+Where [parameter] is a floating value between 0 and 0.5
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
